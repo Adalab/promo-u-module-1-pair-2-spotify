@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color-primary:white;
+    --color-secundary:black;
+  
+}
+body {
+    font-family: "Roboto" ,sans-serif;
+}
+header{
+    background-color:var(--color-secundary);
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    background-color: var(--color-secundary);
+    with:55px;
+    height: 30px;
+    margin:10px;
+}
+.menu{
+    background-color:var(--color-secundary);
+    width: 25px;
+    margin: 10px;
+    
+}
+.section1 {
+    background-color: rgb(72, 110, 224);
+
+    color: white;}
+footer{
+    background-color: black;
+    color:white;
+
+}
+.hijo1{ 
+    display:flex;
+    justify-content: flex-end;
+}
+.hijo2{ display:flex;
+    justify-content: flex-end;}
+.hijo3{
+    display:flex;
+    justify-content: flex-start;
+    gap:25px;
+    list-style: none;
+    margin:5px
+}
