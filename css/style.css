@@ -1,70 +1,86 @@
-*{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-:root{
-    --color-primary:white;
-    --color-secundary:black;
-  
+:root {
+  --color-primary: white;
+  --color-secundary: black;
 }
 body {
-    font-family: "Roboto" ,sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-header{
-    background-color:var(--color-secundary);
-    display: flex;
-    justify-content: space-between;
-    position: sticky;
-    z-index: 100;
-    top: 0;
-    left: 0;
+header {
+  background-color: var(--color-secundary);
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  z-index: 100;
+  top: 0;
+  left: 0;
 }
-.logo{
-    background-color: var(--color-secundary);
-    width:100px;
-    margin:10px;
+.logo {
+  background-color: var(--color-secundary);
+  width: 100px;
+  margin: 10px;
 }
-.menu{
-    background-color:var(--color-secundary);
-    width: 25px;
-    margin: 10px;
-    
+.menu {
+  background-color: var(--color-secundary);
+  width: 25px;
+  margin: 10px;
 }
 .section1 {
-    background-color: rgb(37, 150, 190);
-    color: white;}
-footer{
-    background-color: black;
-    color:white;
-    padding: 50px;
+  background-color: rgb(37, 150, 190);
+  color: white;
+  height: 100vh;
+}
+h1 {
+  padding-top: 70px;
+  font-size: 40px;
+  padding: 15px;
+  padding-top: 90px;
+}
 
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-size: 10px;
 }
-.bandera{
-    width: 25px;
+.bandera {
+  width: 25px;
+}
+.footer1 {
+  display: flex;
+  justify-content: flex-end;
+  /* margin: 15px; */
+  gap: 10px;
+}
+.footer2 {
+  display: flex;
+  justify-content: space-between;
+}
+.footer3 {
+  display: flex;
+  justify-content: flex-start;
+  /* margin: 15px; */
+}
+.minifooter {
+  display: flex;
+  gap: 25px;
+}
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+.dancer {
+  display: none;
+}
 
+.images {
+  display: inline;
 }
-.footer1{ 
-    display:flex;
-    justify-content: flex-end;
-    margin: 20px;
-    gap: 10px;
-}
-.footer2{ 
-    display:flex;
-    justify-content: space-between;
-}
-.footer3{
-    display:flex;
-    justify-content: flex-start;
-    margin: 20px;
-}
-.minifooter{
-    display: flex;
-    gap: 25px;
-    
-}
-a{
-    color: var(--color-primary);
-    text-decoration: none;
+ul img {
+  display: inline;
+  width: 100px;
 }
