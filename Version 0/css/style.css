@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+a {
+  color: var(--color-font);
+  text-decoration: none;
+}
+html {
+  font-size: 62.5%;
+}
+:root {
+  --color-primary: rgb(37, 150, 190);
+  --color-secundary: black;
+  --color-third: rgb(16, 194, 105);
+  --color-font: white;
+  --color-font2: grey;
+  --font-family: "Roboto", sans-serif;
+}
+body {
+  font-family: var(--font-family);
+}
+.header {
+  background-color: var(--color-secundary);
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  z-index: 100;
+  top: 0;
+  left: 0;
+}
+.logo {
+  background-color: var(--color-secundary);
+  width: 10rem;
+  margin: 2rem;
+}
+.menu {
+  background-color: var(--color-secundary);
+  width: 3rem;
+  height: 3rem;
+  margin: 2rem;
+}
+.section1 {
+  background-color: var(--color-primary);
+  color: var(--color-font);
+  height: 100%;
+  padding: 2.5rem;
+}
+.title {
+  padding-top: 11rem;
+  font-size: 5.5rem;
+}
+.parrafo {
+  font-size: 3rem;
+  font-weight: 550;
+  padding-top: 2rem;
+}
+.bottom {
+  background-color: var(--color-third);
+  border-radius: 60rem;
+  width: 100%;
+  height: 4rem;
+  margin-top: 3rem;
+  color: var(--color-font);
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.conditionals {
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 1rem;
+  padding-top: 3rem;
+  margin-right: 5rem;
+}
+.dancer {
+  display: none;
+}
+.premium {
+  font-size: 3.5rem;
+  padding: 4rem;
+  text-align: center;
+}
+.section2 img {
+  width: 15rem;
+  height: 12rem;
+  padding-left: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+.items {
+  display: flex;
+  padding: 2rem;
+  margin-bottom: 3rem;
+}
+li {
+  font-size: 1.5rem;
+  padding-left: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 800;
+}
+li p {
+  color: var(--color-font2);
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 2rem;
+  font-size: 1rem;
+}
+.spain {
+  width: 1rem;
+}
+.footer1 {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+.footer2 {
+  padding-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.footer3 {
+  padding: 1.5rem;
+  display: flex;
+  justify-content: flex-start;
+}
+.minifooter {
+  display: flex;
+  gap: 25px;
+}
