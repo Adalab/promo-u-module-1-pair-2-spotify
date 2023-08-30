@@ -1,0 +1,46 @@
+.section2{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5,1fr);
+    &__box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 5rem;
+    &--title{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: salmon;
+            font-size: 2.5rem;
+        }
+    &--img{
+        width: 10rem;
+        } 
+    &--text{
+        list-style: none;
+        }
+    }    
+}
+
+// .section2{
+//     &__title{
+//         display: flex;
+//         align-items: center;
+//         height: 2rem;
+//     }
+// }
+// .box{
+//     display: grid;
+//     grid-template-columns: repeat(2,1fr);
+//     &__img{
+//         grid-column: span 1;
+//         background-color: salmon;
+//         width: 50px;
+//     }
+//     &__text{
+//         grid-column-start: 2;
+//         background-color: aquamarine;
+//         list-style: none;
+//     }
+// }
